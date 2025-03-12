@@ -1,548 +1,727 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
-<head>
-  <!-- Required Meta Tags Always Come First -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <!-- Title -->
-  <title>camera360 developers for all 360 cameras</title>
+    <!-- Title -->
+    <title>camera360 developers for all 360 cameras</title>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../favicon.ico">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico" />
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- CSS Implementing Plugins -->
-  <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
-  <link rel="stylesheet" href="../assets/vendor/swiper/swiper-bundle.min.css">
+    <!-- CSS Implementing Plugins -->
+    <link
+      rel="stylesheet"
+      href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/vendor/swiper/swiper-bundle.min.css"
+    />
 
-  <!-- CSS Front Template -->
-  <link rel="stylesheet" href="../assets/css/theme.min.css">
-</head>
+    <!-- CSS Front Template -->
+    <link rel="stylesheet" href="../assets/css/theme.min.css" />
+  </head>
 
-<body>
-  <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-light">
-    <div class="container">
-      <nav class="js-mega-menu navbar-nav-wrap">
-        <!-- Default Logo -->
-        <a class="navbar-brand" href="index.html" aria-label="camera360">
-          <img class="navbar-brand-logo" src="../assets/camera360/logo-rect.png" alt="camera360">
-        </a>
-        <!-- End Default Logo -->
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header id="header" class="navbar navbar-expand-lg navbar-end navbar-light">
+      <div class="container">
+        <nav class="js-mega-menu navbar-nav-wrap">
+          <!-- Default Logo -->
+          <a class="navbar-brand" href="index.html" aria-label="camera360">
+            <img
+              class="navbar-brand-logo"
+              src="../assets/camera360/logo-rect.png"
+              alt="camera360"
+            />
+          </a>
+          <!-- End Default Logo -->
 
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-default">
-            <i class="bi-list"></i>
-          </span>
-          <span class="navbar-toggler-toggled">
-            <i class="bi-x"></i>
-          </span>
-        </button>
-        <!-- End Toggler -->
-      
-        <!-- Collapse -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-default">
+              <i class="bi-list"></i>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <i class="bi-x"></i>
+            </span>
+          </button>
+          <!-- End Toggler -->
 
-    
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
 
-      <!--       <li class="nav-item">
+              <!--       <li class="nav-item">
               <a class="nav-link " href="#">Site Overview</a>
             </li> -->
 
-            <!-- Pages -->
-            <li class="hs-has-mega-menu nav-item"
+              <!-- Pages -->
+              <li
+                class="hs-has-mega-menu nav-item"
                 data-hs-mega-menu-item-options='{
                   "desktop": {
                     "position": "right",
                     "maxWidth": "27rem"
                   }
-                }'>
-              <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Content</a>
+                }'
+              >
+                <a
+                  id="pagesMegaMenu"
+                  class="hs-mega-menu-invoker nav-link dropdown-toggle"
+                  aria-current="page"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Content</a
+                >
 
-              <!-- Mega Menu -->
-              <div class="hs-mega-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 27rem;">
-                <div class="navbar-dropdown-menu-inner">
-                  <span class="dropdown-header">What's Here</span>
-                
-                  <div class="row">
-                    <div class="col-sm mb-3 mb-sm-0">
-                      <a class="dropdown-item " href="http://128.199.3.80/t/new-ai-powered-features-on-the-theta-developers-forum/10253?u=craig">AI Tools</a>
-                      <a class="dropdown-item " href="http://128.199.3.80/t/live-streaming-over-usb-on-ubuntu-and-linux-nvidia-jetson/4359?u=craig">Linux Streaming</a>
+                <!-- Mega Menu -->
+                <div
+                  class="hs-mega-menu dropdown-menu"
+                  aria-labelledby="pagesMegaMenu"
+                  style="min-width: 27rem"
+                >
+                  <div class="navbar-dropdown-menu-inner">
+                    <span class="dropdown-header">What's Here</span>
 
+                    <div class="row">
+                      <div class="col-sm mb-3 mb-sm-0">
+                        <a
+                          class="dropdown-item"
+                          href="http://128.199.3.80/t/new-ai-powered-features-on-the-theta-developers-forum/10253?u=craig"
+                          >AI Tools</a
+                        >
+                        <a
+                          class="dropdown-item"
+                          href="http://128.199.3.80/t/live-streaming-over-usb-on-ubuntu-and-linux-nvidia-jetson/4359?u=craig"
+                          >Linux Streaming</a
+                        >
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-sm">
+                        <a
+                          class="dropdown-item"
+                          href="https://codetricity.github.io/theta-gis/"
+                          >GIS</a
+                        >
+                      </div>
+                      <!-- End Col -->
                     </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm">
-                      <a class="dropdown-item " href="https://codetricity.github.io/theta-gis/">GIS</a>
-                    </div>
-                    <!-- End Col -->
+                    <!-- End Row -->
                   </div>
-                  <!-- End Row -->
-                </div>
 
-                <!-- Mega Menu Banner -->
-                <div class="navbar-dropdown-menu-shop-banner">
-                  <div class="d-flex">
-                    <div class="flex-shrink-0">
-                      <img class="navbar-dropdown-menu-shop-banner-img" src="../assets/camera360/jetson_nano_running.jpeg" alt="Jetson Nano Running">
-                    </div>
-                  
-                    <div class="flex-grow-1 p-4">
-                      <span class="h4 d-block text-primary">Active Community</span>
-                      <p>Join the camera360 community and be part of the action.</p>
-                      <a class="btn btn-sm btn-soft-primary btn-transition" href="http://128.199.3.80">Learn more <i class="bi-chevron-right small"></i></a>
+                  <!-- Mega Menu Banner -->
+                  <div class="navbar-dropdown-menu-shop-banner">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0">
+                        <img
+                          class="navbar-dropdown-menu-shop-banner-img"
+                          src="../assets/camera360/jetson_nano_running.jpeg"
+                          alt="Jetson Nano Running"
+                        />
+                      </div>
+
+                      <div class="flex-grow-1 p-4">
+                        <span class="h4 d-block text-primary"
+                          >Active Community</span
+                        >
+                        <p>
+                          Join the camera360 community and be part of the
+                          action.
+                        </p>
+                        <a
+                          class="btn btn-sm btn-soft-primary btn-transition"
+                          href="http://128.199.3.80"
+                          >Learn more <i class="bi-chevron-right small"></i
+                        ></a>
+                      </div>
                     </div>
                   </div>
+                  <!-- End Mega Menu Banner -->
                 </div>
-                <!-- End Mega Menu Banner -->
-              </div>
-              <!-- End Mega Menu -->
-            </li>
-            <!-- End Pages -->
-          
-            <li class="nav-item">
-              <!-- Search -->
-       <!--        <button class="btn btn-ghost-secondary btn-sm btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarSearch" aria-controls="offcanvasNavbarSearch">
+                <!-- End Mega Menu -->
+              </li>
+              <!-- End Pages -->
+
+              <li class="nav-item">
+                <!-- Search -->
+                <!--        <button class="btn btn-ghost-secondary btn-sm btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarSearch" aria-controls="offcanvasNavbarSearch">
                 <i class="bi-search"></i>
               </button> -->
-              <!-- End Search -->
-            
-         
-            
-            </li>
-          </ul>
-        </div>
-        <!-- End Collapse -->
-      </nav>
-    </div>
-  </header>
-
-  <!-- ========== END HEADER ========== -->
-
-  <!-- ========== MAIN CONTENT ========== -->
-  <main id="content" role="main">
-    <!-- Hero -->
-    <div class="position-relative">
-      <!-- Swiper Main Slider -->
-      <div class="js-swiper-shop-classic-hero swiper bg-light">
-        <div class="swiper-wrapper">
-          <!-- Slide -->
-          <div class="swiper-slide">
-            <!-- Container -->
-            <div class="container content-space-t-2 content-space-b-3">
-              <div class="row align-items-lg-center">
-                <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
-                  <div class="mb-6">
-                    <h1 class="display-4 mb-4">World's best 360 camera community</h1>
-                    <p> Discuss mobile apps, 360 live streaming, Unity and more.</p>
-                  </div>
-
-                  <div class="d-flex gap-2">
-                    <a class="btn btn-primary rounded-pill" href="http://128.199.3.80">Exclusive Content for Nice People</a>
-             
-                  </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-6 order-lg-1">
-                  <div class="w-75 mx-auto">
-                    <img class="img-fluid" src="../assets/camera360/meetup_2_crop.jpg" alt="meetup">
-                  </div>
-                </div>
-                <!-- End Col -->
-              </div>
-              <!-- End Row -->
-            </div>
-            <!-- End Container -->
+                <!-- End Search -->
+              </li>
+            </ul>
           </div>
-          <!-- End Slide -->
-
-          <!-- Slide -->
-          <div class="swiper-slide">
-            <!-- Container -->
-            <div class="container content-space-t-2 content-space-b-3">
-              <div class="row align-items-lg-center">
-                <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
-                  <div class="mb-6">
-                    <h2 class="display-4 mb-4">Mobile Development</h2>
-                    <p>iOS, Android, React Native, Flutter. If it talks to a 360 camera, we've got you covered.</p>
-                  </div>
-
-                  <div class="d-flex gap-2">
-                    <a class="btn btn-primary rounded-pill" href="http://128.199.3.80/c/api-usage/5">Only Join if You Have Cool Ideas</a>
-
-                  </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-6 order-lg-1">
-                  <div class="w-75 mx-auto">
-                    <img class="img-fluid" src="../assets/camera360/mobile_app.jpg" alt="360 video player">
-                  </div>
-                </div>
-                <!-- End Col -->
-              </div>
-              <!-- End Row -->
-            </div>
-            <!-- End Container -->
-          </div>
-          <!-- End Slide -->
-
-          <!-- Slide -->
-          <div class="swiper-slide">
-            <!-- Container -->
-            <div class="container content-space-t-2 content-space-b-3">
-              <div class="row align-items-lg-center">
-                <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
-                  <div class="mb-6">
-                    <h3 class="display-4 mb-4">AI, Linux Streaming, Object Detection</h3>
-                    <p>Join researchers building the future of 360 camera use.</p>
-                  </div>
-
-                  <div class="d-flex gap-2">
-                    <a class="btn btn-primary rounded-pill" href="http://128.199.3.80/tag/linuxstreaming">Build the Future</a>
-                
-                  </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-6 order-lg-1">
-                  <div class="w-75 mx-auto">
-                    <img class="img-fluid" src="../assets/camera360/cooling_nano.png" alt="cooling nano">
-                  </div>
-                </div>
-                <!-- End Col -->
-              </div>
-              <!-- End Row -->
-            </div>
-            <!-- End Container -->
-          </div>
-          <!-- End Slide -->
-        </div>
-
-        <!-- Arrows -->
-        <div class="js-swiper-shop-classic-hero-button-next swiper-button-next"></div>
-        <div class="js-swiper-shop-classic-hero-button-prev swiper-button-prev"></div>
+          <!-- End Collapse -->
+        </nav>
       </div>
-      <!-- End Swiper Main Slider -->
+    </header>
 
-      <!-- Swiper Thumbs Slider -->
-      <div class="position-absolute bottom-0 start-0 end-0 mb-3">
-        <div class="js-swiper-shop-hero-thumbs swiper" style="max-width: 13rem;">
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Hero -->
+      <div class="position-relative">
+        <!-- Swiper Main Slider -->
+        <div class="js-swiper-shop-classic-hero swiper bg-light">
           <div class="swiper-wrapper">
             <!-- Slide -->
             <div class="swiper-slide">
-              <a class="js-swiper-thumb-progress swiper-thumb-progress-avatar" href="javascript:;" tabindex="0">
-                <img class="swiper-thumb-progress-avatar-img" src="../assets/camera360/meetup_2_crop.jpg" alt="Image Description">
-              </a>
+              <!-- Container -->
+              <div class="container content-space-t-2 content-space-b-3">
+                <div class="row align-items-lg-center">
+                  <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
+                    <div class="mb-6">
+                      <h1 class="display-4 mb-4">
+                        World's best 360 camera community
+                      </h1>
+                      <p>
+                        Discuss mobile apps, 360 live streaming, Unity and more.
+                      </p>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                      <a
+                        class="btn btn-primary rounded-pill"
+                        href="http://128.199.3.80"
+                        >Exclusive Content for Nice People</a
+                      >
+                    </div>
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="w-75 mx-auto">
+                      <img
+                        class="img-fluid"
+                        src="../assets/camera360/meetup_2_crop.jpg"
+                        alt="meetup"
+                      />
+                    </div>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Container -->
             </div>
             <!-- End Slide -->
 
             <!-- Slide -->
             <div class="swiper-slide">
-              <a class="js-swiper-thumb-progress swiper-thumb-progress-avatar" href="javascript:;" tabindex="0">
-                <img class="swiper-thumb-progress-avatar-img" src="../assets/camera360/mobile_app.jpg" alt="Image Description">
-              </a>
+              <!-- Container -->
+              <div class="container content-space-t-2 content-space-b-3">
+                <div class="row align-items-lg-center">
+                  <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
+                    <div class="mb-6">
+                      <h2 class="display-4 mb-4">Mobile Development</h2>
+                      <p>
+                        iOS, Android, React Native, Flutter. If it talks to a
+                        360 camera, we've got you covered.
+                      </p>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                      <a
+                        class="btn btn-primary rounded-pill"
+                        href="http://128.199.3.80/c/api-usage/5"
+                        >Only Join if You Have Cool Ideas</a
+                      >
+                    </div>
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="w-75 mx-auto">
+                      <img
+                        class="img-fluid"
+                        src="../assets/camera360/mobile_app.jpg"
+                        alt="360 video player"
+                      />
+                    </div>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Container -->
             </div>
             <!-- End Slide -->
 
             <!-- Slide -->
             <div class="swiper-slide">
-              <a class="js-swiper-thumb-progress swiper-thumb-progress-avatar" href="javascript:;" tabindex="0">
-                <img class="swiper-thumb-progress-avatar-img" src="../assets/camera360/cooling_nano.png" alt="Image Description">
-              </a>
+              <!-- Container -->
+              <div class="container content-space-t-2 content-space-b-3">
+                <div class="row align-items-lg-center">
+                  <div class="col-lg-5 order-lg-2 mb-7 mb-lg-0">
+                    <div class="mb-6">
+                      <h3 class="display-4 mb-4">
+                        AI, Linux Streaming, Object Detection
+                      </h3>
+                      <p>
+                        Join researchers building the future of 360 camera use.
+                      </p>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                      <a
+                        class="btn btn-primary rounded-pill"
+                        href="http://128.199.3.80/tag/linuxstreaming"
+                        >Build the Future</a
+                      >
+                    </div>
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-lg-6 order-lg-1">
+                    <div class="w-75 mx-auto">
+                      <img
+                        class="img-fluid"
+                        src="../assets/camera360/cooling_nano.png"
+                        alt="cooling nano"
+                      />
+                    </div>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Container -->
             </div>
             <!-- End Slide -->
+          </div>
+
+          <!-- Arrows -->
+          <div
+            class="js-swiper-shop-classic-hero-button-next swiper-button-next"
+          ></div>
+          <div
+            class="js-swiper-shop-classic-hero-button-prev swiper-button-prev"
+          ></div>
+        </div>
+        <!-- End Swiper Main Slider -->
+
+        <!-- Swiper Thumbs Slider -->
+        <div class="position-absolute bottom-0 start-0 end-0 mb-3">
+          <div
+            class="js-swiper-shop-hero-thumbs swiper"
+            style="max-width: 13rem"
+          >
+            <div class="swiper-wrapper">
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <a
+                  class="js-swiper-thumb-progress swiper-thumb-progress-avatar"
+                  href="javascript:;"
+                  tabindex="0"
+                >
+                  <img
+                    class="swiper-thumb-progress-avatar-img"
+                    src="../assets/camera360/meetup_2_crop.jpg"
+                    alt="Image Description"
+                  />
+                </a>
+              </div>
+              <!-- End Slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <a
+                  class="js-swiper-thumb-progress swiper-thumb-progress-avatar"
+                  href="javascript:;"
+                  tabindex="0"
+                >
+                  <img
+                    class="swiper-thumb-progress-avatar-img"
+                    src="../assets/camera360/mobile_app.jpg"
+                    alt="Image Description"
+                  />
+                </a>
+              </div>
+              <!-- End Slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <a
+                  class="js-swiper-thumb-progress swiper-thumb-progress-avatar"
+                  href="javascript:;"
+                  tabindex="0"
+                >
+                  <img
+                    class="swiper-thumb-progress-avatar-img"
+                    src="../assets/camera360/cooling_nano.png"
+                    alt="Image Description"
+                  />
+                </a>
+              </div>
+              <!-- End Slide -->
+            </div>
           </div>
         </div>
+        <!-- End Swiper Thumbs Slider -->
       </div>
-      <!-- End Swiper Thumbs Slider -->
-    </div>
-    <!-- End Hero -->
+      <!-- End Hero -->
 
-    <!-- Icon Blocks -->
-    <div class="border-bottom">
-      <div class="container content-space-2">
-        <div class="row">
-          <div class="col-md-4 mb-7 mb-md-0">
-            <!-- Icon Block -->
-            <div class="d-flex">
-              <div class="flex-shrink-0">
-                <img class="avatar avatar-4x3" src="../assets/svg/illustrations/oc-return.svg" alt="Image Description">
-              </div>
-              <div class="flex-grow-1 ms-4">
-                <h4 class="mb-1">Looking For RICOH Information?</h4>
-                <p class="small mb-0">
-                  Refer to <a href="https://ricoh360.com/">RICOH360</a> 
-                  for information on THETA cameras. Developer resources are available at
-                 <a href="https://github.com/ricohapi/">GitHub</a>, 
-                 <a href="https://docs.ricoh360.com/">Docs</a>,  
-                 <a href="https://support.ricoh360.com/">Support</a>
+      <!-- Icon Blocks -->
+      <div class="border-bottom">
+        <div class="container content-space-2">
+          <div class="row">
+            <div class="col-md-4 mb-7 mb-md-0">
+              <!-- Icon Block -->
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img
+                    class="avatar avatar-4x3"
+                    src="../assets/svg/illustrations/oc-return.svg"
+                    alt="Image Description"
+                  />
+                </div>
+                <div class="flex-grow-1 ms-4">
+                  <h4 class="mb-1">Looking For RICOH Information?</h4>
+                  <p class="small mb-0">
+                    Refer to <a href="https://ricoh360.com/">RICOH360</a>
+                    for information on THETA cameras. Developer resources are
+                    available at
+                    <a href="https://github.com/ricohapi/">GitHub</a>,
+                    <a href="https://docs.ricoh360.com/">Docs</a>,
+                    <a href="https://support.ricoh360.com/">Support</a>
                   </p>
+                </div>
               </div>
+              <!-- End Icon Block -->
             </div>
-            <!-- End Icon Block -->
+            <!-- End Col -->
+
+            <div class="col-md-4 mb-7 mb-md-0">
+              <!-- Icon Block -->
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img
+                    class="avatar avatar-4x3"
+                    src="../assets/svg/illustrations/oc-person-1.svg"
+                    alt="Image Description"
+                  />
+                </div>
+                <div class="flex-grow-1 ms-4">
+                  <h4 class="mb-1">What is This New Independent Site?</h4>
+                  <p class="small mb-0">
+                    We love 360° camera APIs. The community is run by
+                    <a href="https://www.oppkey.com">Oppkey</a>, not supported
+                    or affliated with a specific camera vendor.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Block -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col-md-4">
+              <!-- Icon Block -->
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <img
+                    class="avatar avatar-4x3"
+                    src="../assets/svg/illustrations/oc-truck.svg"
+                    alt="Image Description"
+                  />
+                </div>
+                <div class="flex-grow-1 ms-4">
+                  <h4 class="mb-1">Where's .guide?</h4>
+                  <p class="small mb-0">
+                    Read
+                    <a
+                      href="https://128.199.3.80/t/important-changes-to-theta360-guide/10610"
+                    >
+                      announcement</a
+                    >
+                    on .guide changes.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Block -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Icon Blocks -->
+
+      <!-- End Card Grid -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="border-top">
+      <div class="container">
+        <div
+          class="row justify-content-lg-between content-space-t-2 content-space-b-lg-2"
+        >
+          <div class="col-lg-3 mb-5">
+            <div class="d-flex align-items-start flex-column h-100">
+              <!-- Logo -->
+              <a class="w-100 mb-3 mb-lg-auto" href="#" aria-label="camera360">
+                <img
+                  class="brand"
+                  src="../assets/camera360/logo-rect.png"
+                  alt="camera360 Logo"
+                />
+              </a>
+              <!-- End Logo -->
+
+              <p class="text-muted small mb-0">
+                &copy; Oppkey. 2025 Silicon Valley, CA.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
+            <h5>Site Info</h5>
+
+            <!-- List -->
+            <ul class="list-unstyled list-py-1">
+              <li>
+                <a
+                  class="link-sm text-secondary"
+                  href="https://www.oppkey.com/about/"
+                  >About Oppkey</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link-sm text-secondary"
+                  href="https://community.oppkey.host/t/building-developer-engagement-for-a-successful-ai-product-launch/589"
+                  >Developer Relations</a
+                >
+              </li>
+            </ul>
+            <!-- End List -->
           </div>
           <!-- End Col -->
 
-          <div class="col-md-4 mb-7 mb-md-0">
-            <!-- Icon Block -->
-            <div class="d-flex">
-              <div class="flex-shrink-0">
-                <img class="avatar avatar-4x3" src="../assets/svg/illustrations/oc-person-1.svg" alt="Image Description">
-              </div>
-              <div class="flex-grow-1 ms-4">
-                <h4 class="mb-1">What is This New Independent Site?</h4>
-                <p class="small mb-0">We love 360° camera APIs. The community is run by 
-                  <a href="https://www.oppkey.com">Oppkey</a>, not supported or affliated with a specific camera vendor.</p>
-                  
-              </div>
-            </div>
-            <!-- End Icon Block -->
-          </div>
-          <!-- End Col -->
+          <div class="col-md-4 col-lg-2 mb-5 mb-lg-0">
+            <h5 class="mb-3">Resources</h5>
 
-          <div class="col-md-4">
-            <!-- Icon Block -->
-            <div class="d-flex">
-              <div class="flex-shrink-0">
-                <img class="avatar avatar-4x3" src="../assets/svg/illustrations/oc-truck.svg" alt="Image Description">
-              </div>
-              <div class="flex-grow-1 ms-4">
-                <h4 class="mb-1">Where's .guide? </h4>
-                <p class="small mb-0">
-                  Read <a href="https://128.199.3.80/t/important-changes-to-theta360-guide/10610">
-                  announcement</a> on .guide changes.</p>
-              </div>
-            </div>
-            <!-- End Icon Block -->
+            <!-- List -->
+            <ul class="list-unstyled list-py-1">
+              <li>
+                <a
+                  class="link-sm link-secondary"
+                  href="https://oppkey.com/contact/"
+                  ><i class="bi-person-lines-fill me-1"></i>Contact</a
+                >
+              </li>
+            </ul>
+            <!-- End List -->
           </div>
           <!-- End Col -->
         </div>
         <!-- End Row -->
-      </div>
-    </div>
-    <!-- End Icon Blocks -->
-    
-    <!-- End Card Grid -->
 
+        <hr class="my-0" />
 
-    
-  </main>
-  <!-- ========== END MAIN CONTENT ========== -->
+        <div class="row align-items-sm-center content-space-1">
+          <div class="col-sm mb-4 mb-sm-0">
+            <!-- Socials -->
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-soft-secondary btn-xs btn-icon"
+                  href="https://www.facebook.com/camera360dev/"
+                >
+                  <i class="bi-facebook"></i>
+                </a>
+              </li>
 
-  <!-- ========== FOOTER ========== -->
-  <footer class="border-top">
-    <div class="container">
-      <div class="row justify-content-lg-between content-space-t-2 content-space-b-lg-2">
-        <div class="col-lg-3 mb-5">
-          <div class="d-flex align-items-start flex-column h-100">
-            <!-- Logo -->
-            <a class="w-100 mb-3 mb-lg-auto" href="#" aria-label="camera360">
-              <img class="brand" src="../assets/camera360/logo-rect.png" alt="camera360 Logo">
-            </a>
-            <!-- End Logo -->
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-soft-secondary btn-xs btn-icon"
+                  href="https://x.com/camera360dev"
+                >
+                  <i class="bi-twitter"></i>
+                </a>
+              </li>
 
-            <p class="text-muted small mb-0">&copy; Oppkey. 2025 Silicon Valley, CA.</p>
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-soft-secondary btn-xs btn-icon"
+                  href="https://github.com/camera360developers"
+                >
+                  <i class="bi-github"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- End Socials -->
+          </div>
+
+          <div class="col-sm-auto">
+            <!-- List -->
+            <ul class="list-inline list-separator">
+              <li class="list-inline-item">
+                <a
+                  class="link-sm link-secondary"
+                  href="http://128.199.3.80/privacy"
+                  >Privacy</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a class="link-sm link-secondary" href="http://128.199.3.80/tos"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+            <!-- End List -->
           </div>
         </div>
-
-     
-
-        <div class="col-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
-          <h5>Site Info</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1">
-            <li><a class="link-sm text-secondary" href="https://www.oppkey.com/about/">About Oppkey</a></li>
-            <li><a class="link-sm text-secondary" href="https://community.oppkey.host/t/building-developer-engagement-for-a-successful-ai-product-launch/589">Developer Relations</a></li>
-          </ul>
-          <!-- End List -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-md-4 col-lg-2 mb-5 mb-lg-0">
-          <h5 class="mb-3">Resources</h5>
-
-          <!-- List -->
-          <ul class="list-unstyled list-py-1">
-            <li><a class="link-sm link-secondary" href="https://oppkey.com/contact/"><i class="bi-person-lines-fill me-1"></i>Contact</a></li>
-          </ul>
-          <!-- End List -->
-        
-          
-        </div>
-        <!-- End Col -->
       </div>
-      <!-- End Row -->
+    </footer>
+    <!-- ========== END FOOTER ========== -->
 
-      <hr class="my-0">
+    <!-- JS Global Compulsory  -->
+    <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-      <div class="row align-items-sm-center content-space-1">
-        <div class="col-sm mb-4 mb-sm-0">
-          <!-- Socials -->
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-soft-secondary btn-xs btn-icon" href="https://www.facebook.com/camera360dev/">
-                <i class="bi-facebook"></i>
-              </a>
-            </li>
+    <!-- JS Implementing Plugins -->
+    <script src="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/countdown/countdown.js"></script>
 
-            <li class="list-inline-item">
-              <a class="btn btn-soft-secondary btn-xs btn-icon" href="https://x.com/camera360dev">
-                <i class="bi-twitter"></i>
-              </a>
-            </li>
+    <!-- JS Front -->
+    <script src="../assets/js/theme.min.js"></script>
 
-            <li class="list-inline-item">
-              <a class="btn btn-soft-secondary btn-xs btn-icon" href="https://github.com/camera360developers">
-                <i class="bi-github"></i>
-              </a>
-            </li>
-          </ul>
-          <!-- End Socials -->
-        </div>
-
-        <div class="col-sm-auto">
-          <!-- List -->
-          <ul class="list-inline list-separator">
-            <li class="list-inline-item">
-              <a class="link-sm link-secondary" href="http://128.199.3.80/privacy">Privacy</a>
-            </li>
-            <li class="list-inline-item">
-              <a class="link-sm link-secondary" href="http://128.199.3.80/tos">Terms of Service</a>
-            </li>
-      
-          </ul>
-          <!-- End List -->
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- ========== END FOOTER ========== -->
-
-  <!-- JS Global Compulsory  -->
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
-  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="../assets/vendor/countdown/countdown.js"></script>
-
-  <!-- JS Front -->
-  <script src="../assets/js/theme.min.js"></script>
-
-  <!-- JS Plugins Init. -->
-  <script>
-    (function() {
-      // INITIALIZATION OF MEGA MENU
-      // =======================================================
-      new HSMegaMenu('.js-mega-menu', {
+    <!-- JS Plugins Init. -->
+    <script>
+      (function () {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        new HSMegaMenu(".js-mega-menu", {
           desktop: {
-            position: 'left'
-          }
-        })
+            position: "left",
+          },
+        });
 
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation(".js-animation-link");
 
-      // INITIALIZATION OF SHOW ANIMATIONS
-      // =======================================================
-      new HSShowAnimation('.js-animation-link')
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init(".js-validate", {
+          onSubmit: (data) => {
+            data.event.preventDefault();
+            alert("Submited");
+          },
+        });
 
+        // INITIALIZATION OF BOOTSTRAP DROPDOWN
+        // =======================================================
+        HSBsDropdown.init();
 
-      // INITIALIZATION OF BOOTSTRAP VALIDATION
-      // =======================================================
-      HSBsValidation.init('.js-validate', {
-        onSubmit: data => {
-          data.event.preventDefault()
-          alert('Submited')
-        }
-      })
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo(".js-go-to");
 
-
-      // INITIALIZATION OF BOOTSTRAP DROPDOWN
-      // =======================================================
-      HSBsDropdown.init()
-
-
-      // INITIALIZATION OF GO TO
-      // =======================================================
-      new HSGoTo('.js-go-to')
-
-
-      // INITIALIZATION OF SWIPER
-      // =======================================================
-      var sliderThumbs = new Swiper('.js-swiper-shop-hero-thumbs', {
-        watchSlidesVisibility: true,
-        watchSlidesProgress: true,
-        history: false,
-        slidesPerView: 3,
-        spaceBetween: 15,
-        on: {
-          beforeInit: (swiper) => {
-            const css = `.swiper-slide-thumb-active .swiper-thumb-progress .swiper-thumb-progress-path {
+        // INITIALIZATION OF SWIPER
+        // =======================================================
+        var sliderThumbs = new Swiper(".js-swiper-shop-hero-thumbs", {
+          watchSlidesVisibility: true,
+          watchSlidesProgress: true,
+          history: false,
+          slidesPerView: 3,
+          spaceBetween: 15,
+          on: {
+            beforeInit: (swiper) => {
+              const css = `.swiper-slide-thumb-active .swiper-thumb-progress .swiper-thumb-progress-path {
                   opacity: 1;
                   -webkit-animation: ${swiper.originalParams.autoplay.delay}ms linear 0ms forwards swiperThumbProgressDash;
                   animation: ${swiper.originalParams.autoplay.delay}ms linear 0ms forwards swiperThumbProgressDash;
-              }`
-              style = document.createElement('style')
-            document.head.appendChild(style)
-            style.type = 'text/css'
-            style.appendChild(document.createTextNode(css));
+              }`;
+              style = document.createElement("style");
+              document.head.appendChild(style);
+              style.type = "text/css";
+              style.appendChild(document.createTextNode(css));
 
-            swiper.el.querySelectorAll('.js-swiper-thumb-progress')
-            .forEach(slide => {
-              slide.insertAdjacentHTML('beforeend', '<span class="swiper-thumb-progress"><svg version="1.1" viewBox="0 0 160 160"><path class="swiper-thumb-progress-path" d="M 79.98452083651917 4.000001576345426 A 76 76 0 1 1 79.89443752470656 4.0000733121155605 Z"></path></svg></span>')
-            })
+              swiper.el
+                .querySelectorAll(".js-swiper-thumb-progress")
+                .forEach((slide) => {
+                  slide.insertAdjacentHTML(
+                    "beforeend",
+                    '<span class="swiper-thumb-progress"><svg version="1.1" viewBox="0 0 160 160"><path class="swiper-thumb-progress-path" d="M 79.98452083651917 4.000001576345426 A 76 76 0 1 1 79.89443752470656 4.0000733121155605 Z"></path></svg></span>'
+                  );
+                });
+            },
           },
-        },
-      });
+        });
 
-      var swiper = new Swiper('.js-swiper-shop-classic-hero',{
-        autoplay: true,
-        loop: true,
-        navigation: {
-          nextEl: '.js-swiper-shop-classic-hero-button-next',
-          prevEl: '.js-swiper-shop-classic-hero-button-prev',
-        },
-        thumbs: {
-          swiper: sliderThumbs
-        }
-      });
-
-
-      // INITIALIZATION OF COUNTDOWN
-      // =======================================================
-      const oneYearFromNow = new Date()
-
-      document.querySelectorAll('.js-countdown').forEach(item => {
-        const days = item.querySelector('.js-cd-days'),
-          hours = item.querySelector('.js-cd-hours'),
-          minutes = item.querySelector('.js-cd-minutes'),
-          seconds = item.querySelector('.js-cd-seconds')
-
-        countdown(oneYearFromNow.setFullYear(
-          oneYearFromNow.getFullYear() + 1),
-          ts => {
-            days.innerHTML = ts.days
-            hours.innerHTML = ts.hours
-            minutes.innerHTML = ts.minutes
-            seconds.innerHTML = ts.seconds
+        var swiper = new Swiper(".js-swiper-shop-classic-hero", {
+          autoplay: true,
+          loop: true,
+          navigation: {
+            nextEl: ".js-swiper-shop-classic-hero-button-next",
+            prevEl: ".js-swiper-shop-classic-hero-button-prev",
           },
-          countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
-        )
-      })
-    })()
-  </script>
-</body>
+          thumbs: {
+            swiper: sliderThumbs,
+          },
+        });
+
+        // INITIALIZATION OF COUNTDOWN
+        // =======================================================
+        const oneYearFromNow = new Date();
+
+        document.querySelectorAll(".js-countdown").forEach((item) => {
+          const days = item.querySelector(".js-cd-days"),
+            hours = item.querySelector(".js-cd-hours"),
+            minutes = item.querySelector(".js-cd-minutes"),
+            seconds = item.querySelector(".js-cd-seconds");
+
+          countdown(
+            oneYearFromNow.setFullYear(oneYearFromNow.getFullYear() + 1),
+            (ts) => {
+              days.innerHTML = ts.days;
+              hours.innerHTML = ts.hours;
+              minutes.innerHTML = ts.minutes;
+              seconds.innerHTML = ts.seconds;
+            },
+            countdown.DAYS |
+              countdown.HOURS |
+              countdown.MINUTES |
+              countdown.SECONDS
+          );
+        });
+      })();
+    </script>
+  </body>
 </html>
